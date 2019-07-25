@@ -1,0 +1,48 @@
+h1{
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+  font-size: 10vh;
+}
+
+#menu{
+  height: 90vh; 
+  width: 40%;  
+}
+.menu-section{
+  margin: 0 5vw;
+}
+
+.buttons{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4vh;
+  margin:1vw;
+  height: 12vh;
+  width: 10vw;
+  border-radius: 1vh;
+}
+
+#random{
+  width: 22vw;
+}
+
+#color-input{
+  width: 22vw;
+  padding: 0;
+  border:none;
+}
+
+footer{
+  margin-top: 2.5vh;
+  display: flex;
+  display: -webkit-flex;
+  justify-content:center;
+  align-content: center;
+}
+#my-link{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3vh;
+  color: #000;
+  text-decoration: none;
+}
+
+
