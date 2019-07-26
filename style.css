@@ -1,14 +1,36 @@
+#container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#menu{
+  height: 90vh;
+  width: 40vw;  
+}
+
+#sketch{
+  background: #000;
+  height: 90vh;   
+  width: 50vw;
+  display: grid;
+  --setGrid: 16;
+  gap: 1px;
+  grid-template-columns: repeat(var(--setGrid), 1fr);
+  grid-template-rows: repeat(var(--setGrid), 1fr);
+  border: .8vh solid #000;
+}
+
+.block{
+  background: #d0d0d0
+}
 h1{
   font-family: 'Permanent Marker', cursive;
   margin: 0;
   font-size: 10vh;
 }
 
-#menu{
-  height: 90vh; 
-  width: 40%;  
-}
 .menu-section{
+  display: block;
   margin: 0 5vw;
 }
 
@@ -32,17 +54,15 @@ h1{
 }
 
 footer{
-  margin-top: 2.5vh;
+  margin-top: 2vh;
   display: flex;
   display: -webkit-flex;
   justify-content:center;
   align-content: center;
 }
+
 #my-link{
   font-family: 'Permanent Marker', cursive;
   font-size: 3vh;
   color: #000;
-  text-decoration: none;
 }
-
-

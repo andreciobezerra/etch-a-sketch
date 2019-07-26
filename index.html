@@ -9,18 +9,21 @@
   <title>Etch-a-scketch!</title>
 </head>
 <body background="./images/background.jpg">  
-  <div id="menu">
-    <h1>Etch-a-scketch</h1>
-    <div class="menu-section">
-        <button class="buttons">CLEAN</button>
-        <button class="buttons">RESIZE</button>
+  <div id="container">
+    <div id="menu">
+      <h1>Etch-a-scketch</h1>
+      <div class="menu-section">
+        <button class="buttons" id="clean">CLEAN</button>
+        <button class="buttons" id="resize">RESIZE</button>
+      </div>
+      <div class="menu-section">
+        <button id="random" class="buttons">RANDOM COLORS</button>
+        <br/>
+        <input type="color" id="color-input" class="buttons">
+      </div>        
     </div>
-    <div class="menu-section">
-      <button id="random" class="buttons">RANDOM COLORS</button>
-      <br/>
-      <input type="color" id="color-input" class="buttons">
-    </div>          
-  </div>
-  <footer><a href="#" id="my-link">Developed by Andrécio Costa</a></footer> 
+  </div> 
+  <footer><a href="#" id="my-link">Developed by Andrécio Costa</a></footer>
+  <script src="./etch.js"></script> 
 </body>
 </html>
