@@ -34,8 +34,7 @@ function colorRandom(){
     let r = Math.floor(Math.random()*255)
     let g = Math.floor(Math.random()*255)
     let b = Math.floor(Math.random()*255)
-    console.log(`rgb(${r},${g},${b})`);
-    
+   
     block.removeEventListener('mouseenter',colorFixed)
     block.onmouseenter = () => block.style.background = `rgb(${r},${g},${b})`
   }) 
